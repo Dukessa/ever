@@ -2,9 +2,17 @@
     .fon-box {
         min-height: 858px;
     }
+
+    .item__container-specify {
+        padding-top: 10%;
+    }
 }
 
 @media (max-width: 1281px) {
+    .item__container-specify {
+        padding-top: 20%;
+    }
+ 
 
     .fon-box {
         min-height: 399px;
@@ -88,7 +96,7 @@
 
 @media (max-width: 950px) {
     .item__container-specify {
-        padding-top: 20%;
+        padding-top: 10%;
     }
 
     .fon-box {
@@ -308,7 +316,7 @@
         padding: 29px 34px 166px 50%;
         width: 100%;
         background: url("../Img/Telephon-vertical.png") no-repeat, url("../Img/fon-bottom.png") no-repeat;
-        background-size: 28%, 100% 20%;
+        background-size: 29%, 100% 20%;
         background-position: 12% bottom, 100% bottom;
     }
 
